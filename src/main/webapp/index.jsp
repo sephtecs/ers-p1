@@ -27,24 +27,25 @@
 </script>
 </head>
 <body>
-	<!-- 	<h1>Login Page</h1>
-	<hr /> -->
-	<h2 class="notes">Welcome to the ERS Login page!</h2>
-	<form class="form-style" action="LoginController"
-		onsubmit="return validate()" method="post">
-		<table>
-			<tr>
-				<td><label> Username: </label></td>
-				<td><input type="text" size="31" name="username" id="username"
-					placeholder="please enter username"></td>
-			</tr>
-			<tr>
-				<td><label> Password: </label></td>
-				<td><input type="password" name="password" id="password">
-					<input type="submit" value="Sign in" id="btnSubmit"></td>
-			</tr>
-		</table>
-	</form>
-
+	<div class="col-4 mx-auto">
+		<!-- 	<h1>Login Page</h1>
+		<hr /> -->
+		<h2 class="notes">Welcome to the ERS Login page!</h2>
+		<form class="form-style" action="LoginController"
+			onsubmit="return validate()" method="post">
+			<table>
+				<tr>
+					<td><label> Username: </label></td>
+					<td><input type="text" size="31" name="username" id="username"
+						placeholder="please enter username"></td>
+				</tr>
+				<tr>
+					<td><label> Password: </label></td>
+					<td><input type="password" name="password" id="password">
+						<input type="submit" value="Sign in" id="btnSubmit"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
 </body>
 </html>
